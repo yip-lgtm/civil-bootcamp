@@ -1,5 +1,7 @@
 # civil-bootcamp
 
+[![CI](https://github.com/yip-lgtm/civil-bootcamp/actions/workflows/ci.yml/badge.svg)](https://github.com/yip-lgtm/civil-bootcamp/actions/workflows/ci.yml)
+
 **MIT CEE Self-Study Bootcamp**  
 Bachelor equivalent → MEng Structural Mechanics & Design → ICE Professional (IEng/CEng MICE)
 
@@ -27,3 +29,14 @@ All content is bilingual (中英對照).
 ## How to use
 
 Study in order: Structural Design → choose specialization track → MEng SMD electives → write ICE Professional Review evidence from the Capstone and Project files.
+
+## CI/CD
+
+GitHub Actions pipeline runs on every push and pull request to `main`:
+
+- Validates all 6 track folders exist
+- Checks critical course files and INDEX files
+- Counts markdown files (expects ≥ 30)
+- Basic structure check for the standard 3-question format
+
+Workflow file: `.github/workflows/ci.yml`
