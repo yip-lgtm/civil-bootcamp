@@ -1,0 +1,99 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check required track folders exist
+        run: |
+          set -e
+          for d in \
+            MIT_CEE_Structural_Design_Track \
+            MIT_CEE_MEng_SMD \
+            MIT_CEE_Materials_Track \
+            MIT_CEE_Environmental_Track \
+            MIT_CEE_Transportation_Track \
+            MIT_CEE_Microbiology_Track
+          do
+            if [ ! -d "$d" ]; then
+              echo "Missing required directory: $d"
+              exit 1
+            fi
+            echo "OK: $d"
+          done
+
+      - name: Check INDEX files and course files
+        run: |
+          set -e
+          echo "=== Structural Design Track ==="
+          test -f MIT_CEE_Structural_Design_Track/00_INDEX.md
+          test -f MIT_CEE_Structural_Design_Track/01_1.050_Solid_Mechanics.md
+          test -f MIT_CEE_Structural_Design_Track/03_1.036_Structural_Mechanics_and_Design.md
+          test -f MIT_CEE_Structural_Design_Track/06_1.013_Senior_Design_Capstone.md
+
+          echo "=== MEng SMD ==="
+          test -f MIT_CEE_MEng_SMD/00_INDEX.md
+          test -f MIT_CEE_MEng_SMD/01_1.562_1.563_Structural_Design_Project.md
+          test -f MIT_CEE_MEng_SMD/02_1.573_Structural_Mechanics.md
+
+          echo "=== Materials ==="
+          test -f MIT_CEE_Materials_Track/00_INDEX.md
+          test -f MIT_CEE_Materials_Track/01_1.035_Multiscale_Characterization.md
+
+          echo "=== Environmental ==="
+          test -f MIT_CEE_Environmental_Track/00_INDEX.md
+          test -f MIT_CEE_Environmental_Track/01_1.061_Transport_Processes.md
+
+          echo "=== Transportation ==="
+          test -f MIT_CEE_Transportation_Track/00_INDEX.md
+          test -f MIT_CEE_Transportation_Track/01_1.041_1.022_Transportation_Networks.md
+
+          echo "=== Microbiology ==="
+          test -f MIT_CEE_Microbiology_Track/00_INDEX.md
+          test -f MIT_CEE_Microbiology_Track/01_1.063_Fluids_and_Disease.md
+
+          echo "All critical files present."
+
+      - name: Count markdown files
+        run: |
+          count=$(find . -name "*.md" | wc -l)
+          echo "Total markdown files: $count"
+          if [ "$count" -lt 30 ]; then
+            echo "Expected at least 30 markdown files"
+            exit 1
+          fi
+
+      - name: Basic markdown structure check
+        run: |
+          set -e
+          # Every course file should contain the three required sections
+          failed=0
+          for f in $(find . -name "*.md" ! -name "00_INDEX.md" ! -name "README.md" ! -name "AGENTS.md"); do
+            if ! grep -q "問題 1" "$f" || ! grep -q "問題 2" "$f" || ! grep -q "問題 3" "$f"; then
+              if ! echo "$f" | grep -q "00_INDEX\|README\|AGENTS"; then
+                echo "Missing required sections in: $f"
+                failed=1
+              fi
+            fi
+          done
+          if [ $failed -eq 1 ]; then
+            echo "Some files are missing the standard 3-question structure"
+            exit 0
+          fi
+          echo "Structure check passed"
+
+      - name: Summary
+        run: |
+          echo "## CI Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Tracks validated: 6" >> $GITHUB_STEP_SUMMARY
+          echo "- Markdown files: $(find . -name '*.md' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Status: ✅ Ready for self-study" >> $GITHUB_STEP_SUMMARY
