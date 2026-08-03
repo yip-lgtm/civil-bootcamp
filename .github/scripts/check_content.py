@@ -43,6 +43,12 @@ RE_DEEP_DIVE_NUM = re.compile(r"^##\s+[1-5][\.．][^\n]+", re.MULTILINE)
 # Numbered solution headings: "## 詳解 1：..." up to "## 詳解 10：..."
 RE_SOLUTION_NUM = re.compile(r"^##\s+詳解\s*([0-9]+)[:：]", re.MULTILINE)
 
+# Diagram subsections: "### N.X 圖解 / Diagram" inside a mental model deep dive
+RE_DIAGRAM_SUB = re.compile(r"^###\s+\d+\.\d+\s+圖解\s*/\s*Diagram", re.MULTILINE)
+
+# Mermaid code blocks (count of ```mermaid ... ``` pairs)
+RE_MERMAID_FENCE = re.compile(r"^```mermaid\s*$", re.MULTILINE)
+
 
 def find_course_files() -> List[Path]:
     files: List[Path] = []
@@ -133,6 +139,39 @@ def count_solutions(text: str) -> int:
     return len(nums)
 
 
+def count_diagram_subsections(text: str) -> int:
+    """Count `### N.X 圖解 / Diagram` subsections.
+
+    These are the dedicated diagram sections added per mental model. Each should
+    contain at least one Mermaid block.
+    """
+    return len(RE_DIAGRAM_SUB.findall(text))
+
+
+def count_mermaid_blocks(text: str) -> int:
+    """Count opened ```mermaid code blocks (assumes properly closed)."""
+    fences = RE_MERMAID_FENCE.findall(text)
+    # Each block is opened once; assume closing fences balance.
+    return len(fences)
+
+
+def check_mermaid_balance(text: str) -> List[str]:
+    """Check that ``` fences are balanced (no unclosed code blocks)."""
+    issues: List[str] = []
+    fence_count = 0
+    in_block_type: str = ""
+    for i, line in enumerate(text.splitlines(), 1):
+        if line.startswith("```"):
+            fence_count += 1
+            if fence_count % 2 == 1:
+                in_block_type = line[3:].strip() or "untagged"
+            else:
+                in_block_type = ""
+    if fence_count % 2 != 0:
+        issues.append(f"Unbalanced code fences (odd count: {fence_count})")
+    return issues
+
+
 def has_bilingual(text: str) -> Tuple[bool, bool]:
     """Return (has_cjk, has_latin_word)."""
     has_cjk = bool(re.search(r"[\u4e00-\u9fff]", text))
@@ -186,11 +225,17 @@ def check_file(path: Path) -> Tuple[List[str], List[str]]:
     if not has_latin:
         errors.append(f"{rel}: no Latin words found (bilingual content missing)")
 
+    # 6. Balanced code fences (catches unclosed ```mermaid blocks)
+    for issue in check_mermaid_balance(text):
+        errors.append(f"{rel}: {issue}")
+
     # ---- Below: deep-content checks. Stubs (< MIN_LINES) get WARNINGS only. ----
     is_stub = len(lines) < MIN_LINES
 
     n_dives = count_deep_dives(text)
     n_sols = count_solutions(text)
+    n_diagram_subs = count_diagram_subsections(text)
+    n_mermaid = count_mermaid_blocks(text)
     has_summary = bool(RE_SUMMARY_SECTION.search(text))
 
     if is_stub:
@@ -219,6 +264,16 @@ def check_file(path: Path) -> Tuple[List[str], List[str]]:
             )
         if not has_summary:
             errors.append(f"{rel}: missing closing '## 總結' section")
+        # Diagram sections: at least one per deep dive is recommended
+        if n_diagram_subs < 1:
+            warnings.append(
+                f"{rel}: expanded file has 0 '### N.X 圖解 / Diagram' subsections "
+                f"(recommend ≥ 1 per mental model)"
+            )
+        if n_mermaid < 1:
+            warnings.append(
+                f"{rel}: expanded file has 0 Mermaid blocks (consider adding diagrams)"
+            )
 
     return errors, warnings
 
@@ -233,33 +288,47 @@ def main() -> int:
 
     all_errors: List[str] = []
     all_warnings: List[str] = []
-    summary_rows: List[Tuple[str, int, int, int, int, int, int, str]] = []
+    summary_rows: List[Tuple[str, int, int, int, int, int, int, int, int, str]] = []
     for f in files:
         rel = f.relative_to(ROOT)
         text = f.read_text(encoding="utf-8")
         n_lines = len(text.splitlines())
         n_dives = count_deep_dives(text)
         n_sols = count_solutions(text)
+        n_diag = count_diagram_subsections(text)
+        n_merm = count_mermaid_blocks(text)
         n1 = count_numbered_items(section_block(text, RE_PROBLEM_1))
         n2 = count_numbered_items(section_block(text, RE_PROBLEM_2))
         n3 = count_numbered_items(section_block(text, RE_PROBLEM_3), require_bold=False)
         status = "STUB" if n_lines < MIN_LINES else "OK"
-        summary_rows.append((str(rel), n_lines, n1, n2, n3, n_dives, n_sols, status))
+        summary_rows.append(
+            (str(rel), n_lines, n1, n2, n3, n_dives, n_sols, n_diag, n_merm, status)
+        )
 
         errs, warns = check_file(f)
         all_errors.extend(errs)
         all_warnings.extend(warns)
 
     # Print per-file report
-    print(f"{'File':<60} {'Lines':>6} {'MM':>4} {'DG':>4} {'Qs':>4} {'Dives':>6} {'Sols':>5} {'Status':>6}")
-    print("-" * 100)
+    print(
+        f"{'File':<60} {'Lines':>6} {'MM':>4} {'DG':>4} {'Qs':>4} "
+        f"{'Dives':>6} {'Sols':>5} {'Diag':>5} {'Merm':>5} {'Status':>6}"
+    )
+    print("-" * 115)
     for row in summary_rows:
-        rel, n_lines, n1, n2, n3, n_dives, n_sols, status = row
-        print(f"{rel:<60} {n_lines:>6} {n1:>4} {n2:>4} {n3:>4} {n_dives:>6} {n_sols:>5} {status:>6}")
+        rel, n_lines, n1, n2, n3, n_dives, n_sols, n_diag, n_merm, status = row
+        print(
+            f"{rel:<60} {n_lines:>6} {n1:>4} {n2:>4} {n3:>4} "
+            f"{n_dives:>6} {n_sols:>5} {n_diag:>5} {n_merm:>5} {status:>6}"
+        )
     print()
 
-    n_stubs = sum(1 for r in summary_rows if r[7] == "STUB")
-    print(f"Summary: {len(files)} files, {len(files) - n_stubs} expanded, {n_stubs} stubs\n")
+    n_stubs = sum(1 for r in summary_rows if r[9] == "STUB")
+    n_mermaid_total = sum(r[8] for r in summary_rows)
+    print(
+        f"Summary: {len(files)} files, {len(files) - n_stubs} expanded, "
+        f"{n_stubs} stubs, {n_mermaid_total} Mermaid diagrams total\n"
+    )
 
     if all_warnings:
         print(f"⚠️  {len(all_warnings)} warning(s) (stubs that need expansion):\n")
