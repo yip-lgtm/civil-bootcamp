@@ -109,13 +109,36 @@ jobs:
             MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/01_1.050_Solid_Mechanics.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/03_1.036_Structural_Mechanics_and_Design.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/08_1.056_Introduction_to_Structural_Design.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/09_1.004_Startup_Sustainable_Tech.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/10_1.021_Introduction_to_Modeling_and_Simulation.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/11_1.104_Sensing_and_Intelligent_Systems.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/12_1.058_Structural_Dynamics_Undergraduate.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/01_1.035_Multiscale_Characterization.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/02_1.037_Soil_Mechanics_and_Geotechnical_Design.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/04_1.579_Materials_in_Agriculture.md \
+            MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/01_1.063_Fluids_and_Disease.md \
+            MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/03_1.088_Genomics_Evolution_of_Infectious_Disease.md \
+            MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/04_1.089_Earths_Microbiomes.md \
+            MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/05_20.507_Introduction_to_Biological_Chemistry.md \
+            MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/06_7.102_Introduction_to_Molecular_Biology_Techniques.md \
+            MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/07_12.715_Environmental_Bioinformatics.md \
+            MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/07_5.12_Organic_Chemistry.md \
             MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/01_1.041_1.022_Transportation_Networks.md \
             MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/02_1.020_Engineering_Sustainability.md \
             MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/03_1.075_Water_Resource_Systems.md \
             MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/04_1.102_Introduction_to_CEE_Design_II.md \
             MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/05_1.022_Introduction_to_Network_Models.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/06_15.053_Optimization_Methods_in_Business_Analytics.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/07_1.024_Machine_Learning_for_Sustainable_Systems.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/08_1.275_Business_and_Operations_Analytics.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/09_1.C51_Machine_Learning_for_Sustainable_Systems.md \
+            MIT_CEE_UREs/6.402_Modeling_with_Machine_Learning.md \
+            MIT_CEE_UREs/IDS.012_Statistics_Computation_and_Applications.md \
+            MIT_CEE_UREs/18.06_Linear_Algebra.md \
+            MIT_CEE_UREs/6.S084_Linear_Algebra_and_Optimization.md \
+            MIT_CEE_UREs/14.01_Principles_of_Microeconomics.md \
+            MIT_CEE_UREs/14.03_Microeconomic_Theory_and_Public_Policy.md \
+            MIT_CEE_UREs/6.0001_Introduction_to_CS_Programming_in_Python.md \
             MIT_CEE_MEng_SMD/01_1.562_1.563_Structural_Design_Project.md \
             MIT_CEE_MEng_SMD/02_1.573_Structural_Mechanics.md \
             MIT_CEE_MEng_SMD/03_1.581_Structural_Dynamics.md \
