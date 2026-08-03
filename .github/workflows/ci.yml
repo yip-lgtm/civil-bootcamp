@@ -96,17 +96,24 @@ jobs:
           for f in \
             MIT_CEE_GDRs/18.03_Differential_Equations.md \
             MIT_CEE_GDRs/1.000_Introduction_to_Computer_Programming_and_Numerical_Methods.md \
+            MIT_CEE_GDRs/1.010A_Probability_Concepts_and_Applications.md \
+            MIT_CEE_GDRs/1.074_Multivariate_Data_Analysis.md \
+            MIT_CEE_GDRs/1.101_Introduction_to_CEE_Design.md \
+            MIT_CEE_GDRs/1.013_Senior_CEE_Design_Capstone.md \
             MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/01_1.061_Transport_Processes.md \
             MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/05_1.106_Environmental_Fluid_Transport_Hydrology_Lab.md \
-            MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/06_1.107_Environmental_Chemistry_Laboratory.md \
+            MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/06_1.107_Water_and_Air_Quality_Laboratory.md \
             MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/01_1.063_Fluids_and_Disease.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/01_1.050_Solid_Mechanics.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/03_1.036_Structural_Mechanics_and_Design.md \
-            MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/06_1.013_Senior_Design_Capstone.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/08_1.056_Introduction_to_Structural_Design.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/01_1.035_Multiscale_Characterization.md \
             MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/02_1.037_Soil_Mechanics_and_Geotechnical_Design.md \
             MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/01_1.041_1.022_Transportation_Networks.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/02_1.020_Engineering_Sustainability.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/03_1.075_Water_Resource_Systems.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/04_1.102_Introduction_to_CEE_Design_II.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/05_1.022_Introduction_to_Network_Models.md \
             MIT_CEE_MEng_SMD/01_1.562_1.563_Structural_Design_Project.md \
             MIT_CEE_MEng_SMD/02_1.573_Structural_Mechanics.md
           do
