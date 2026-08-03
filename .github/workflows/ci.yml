@@ -129,7 +129,21 @@ jobs:
             MIT_CEE_MEng_SMD/11_1.121_Advanced_Mechanics_Materials_via_ML.md \
             MIT_CEE_MEng_SMD/12_1.142_Robust_Modeling_Optimization_Computation.md \
             MIT_CEE_MEng_SMD/13_1.351_Theoretical_Soil_Mechanics.md \
-            MIT_CEE_MEng_SMD/14_1.472_Innovative_Project_Delivery.md
+            MIT_CEE_MEng_SMD/14_1.472_Innovative_Project_Delivery.md \
+            MIT_CEE_MEng_SMD/15_1.001_Engineering_Computation_and_Data_Science.md \
+            MIT_CEE_MEng_SMD/16_1.38_Engineering_Geology.md \
+            MIT_CEE_MEng_SMD/17_1.462_Entrepreneurship_Built_Environment.md \
+            MIT_CEE_MEng_SMD/18_1.564_Environmental_Technology_in_Buildings.md \
+            MIT_CEE_MEng_SMD/19_1.813_Technology_Globalization_Sustainable_Development.md \
+            MIT_CEE_MEng_SMD/20_1.834_Exploring_Sustainability_at_Different_Scales.md \
+            MIT_CEE_MEng_SMD/21_3.371_Structural_Materials.md \
+            MIT_CEE_MEng_SMD/22_4.130_Architectural_Design_Theory.md \
+            MIT_CEE_MEng_SMD/23_4.140_How_to_Make_Almost_Anything.md \
+            MIT_CEE_MEng_SMD/24_4.252_Introduction_to_Urban_Design_and_Development.md \
+            MIT_CEE_MEng_SMD/25_4.453_Creative_Machine_Learning_for_Design.md \
+            MIT_CEE_MEng_SMD/26_4.463_Building_Technology_Systems.md \
+            MIT_CEE_MEng_SMD/27_4.580_Inquiry_into_Computation_and_Design.md \
+            MIT_CEE_MEng_SMD/28_4.604_Understanding_Modern_Architecture.md
           do
             if [ ! -f "$f" ]; then
               echo "❌ Missing: $f"
