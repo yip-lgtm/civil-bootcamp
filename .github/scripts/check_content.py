@@ -21,7 +21,21 @@ from pathlib import Path
 from typing import List, Tuple
 
 ROOT = Path(__file__).resolve().parents[2]
-TRACK_GLOB = "MIT_CEE_*Track"
+
+# All directories under MIT_CEE_* that contain course files (post-restructure 2026-08)
+# This matches the canonical MIT CEE Course 1-ENG structure:
+#   MIT_CEE_GIRs/        — General Institute Requirements (17 subjects, placeholder)
+#   MIT_CEE_GDRs/        — General Department Requirements (54 units)
+#   MIT_CEE_Core/        — Three specialization tracks (Environment, Mechanics, Energy)
+#   MIT_CEE_MEng_SMD/    — Graduate program (post-bachelor MEng)
+#   MIT_CEE_UREs/        — Unrestricted electives (placeholder)
+COURSE_DIRS = [
+    "MIT_CEE_GIRs",
+    "MIT_CEE_GDRs",
+    "MIT_CEE_Core",
+    "MIT_CEE_MEng_SMD",
+    "MIT_CEE_UREs",
+]
 
 # Per-file thresholds
 MIN_LINES = 300           # course files are deep dives, should be substantial
@@ -52,10 +66,12 @@ RE_MERMAID_FENCE = re.compile(r"^```mermaid\s*$", re.MULTILINE)
 
 def find_course_files() -> List[Path]:
     files: List[Path] = []
-    for track in ROOT.glob(TRACK_GLOB):
-        if not track.is_dir():
+    for d in COURSE_DIRS:
+        root = ROOT / d
+        if not root.is_dir():
             continue
-        for md in track.glob("*.md"):
+        # Walk recursively so sub-areas (e.g. Structural_Design, Materials) are scanned
+        for md in sorted(root.rglob("*.md")):
             if md.name == "00_INDEX.md":
                 continue
             files.append(md)
@@ -281,10 +297,10 @@ def check_file(path: Path) -> Tuple[List[str], List[str]]:
 def main() -> int:
     files = find_course_files()
     if not files:
-        print("ERROR: no course files found under MIT_CEE_*Track/", file=sys.stderr)
+        print("ERROR: no course files found under any course directory", file=sys.stderr)
         return 2
 
-    print(f"Checking {len(files)} course file(s) under {TRACK_GLOB}/\n")
+    print(f"Checking {len(files)} course file(s) under {', '.join(COURSE_DIRS)}\n")
 
     all_errors: List[str] = []
     all_warnings: List[str] = []

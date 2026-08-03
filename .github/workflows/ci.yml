@@ -30,17 +30,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check required track folders exist
+      - name: Check required top-level CEE folders exist
         run: |
           set -e
           missing=0
+          # Canonical MIT CEE Course 1-ENG structure (post-2026-08 restructure)
           for d in \
-            MIT_CEE_Structural_Design_Track \
+            MIT_CEE_GIRs \
+            MIT_CEE_GDRs \
+            MIT_CEE_Core \
             MIT_CEE_MEng_SMD \
-            MIT_CEE_Materials_Track \
-            MIT_CEE_Environmental_Track \
-            MIT_CEE_Transportation_Track \
-            MIT_CEE_Microbiology_Track
+            MIT_CEE_UREs
           do
             if [ ! -d "$d" ]; then
               echo "❌ Missing required directory: $d"
@@ -50,22 +50,20 @@ jobs:
             fi
           done
           if [ $missing -gt 0 ]; then
-            echo "$missing required track folder(s) missing"
+            echo "$missing required folder(s) missing"
             exit 1
           fi
 
-      - name: Verify every track has 00_INDEX.md
+      - name: Verify every top-level CEE folder has 00_INDEX.md
         run: |
           set -e
           missing=0
-          # Explicit list — MIT_CEE_MEng_SMD doesn't match the *Track glob
           for d in \
-            MIT_CEE_Structural_Design_Track \
+            MIT_CEE_GIRs \
+            MIT_CEE_GDRs \
+            MIT_CEE_Core \
             MIT_CEE_MEng_SMD \
-            MIT_CEE_Materials_Track \
-            MIT_CEE_Environmental_Track \
-            MIT_CEE_Transportation_Track \
-            MIT_CEE_Microbiology_Track
+            MIT_CEE_UREs
           do
             if [ ! -f "$d/00_INDEX.md" ]; then
               echo "❌ Missing 00_INDEX.md in $d"
@@ -74,8 +72,21 @@ jobs:
               echo "✅ $d/00_INDEX.md"
             fi
           done
+          # Verify each of the 3 Core Tracks has its own 00_INDEX.md
+          for t in \
+            MIT_CEE_Core/Track_1_Environment \
+            MIT_CEE_Core/Track_2_Mechanics_Materials \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems
+          do
+            if [ ! -f "$t/00_INDEX.md" ]; then
+              echo "❌ Missing 00_INDEX.md in $t"
+              missing=$((missing + 1))
+            else
+              echo "✅ $t/00_INDEX.md"
+            fi
+          done
           if [ $missing -gt 0 ]; then
-            echo "$missing track(s) missing 00_INDEX.md"
+            echo "$missing INDEX file(s) missing"
             exit 1
           fi
 
@@ -83,15 +94,17 @@ jobs:
         run: |
           set -e
           for f in \
-            MIT_CEE_Structural_Design_Track/01_1.050_Solid_Mechanics.md \
-            MIT_CEE_Structural_Design_Track/03_1.036_Structural_Mechanics_and_Design.md \
-            MIT_CEE_Structural_Design_Track/06_1.013_Senior_Design_Capstone.md \
+            MIT_CEE_GDRs/18.03_Differential_Equations.md \
+            MIT_CEE_GDRs/1.000_Computer_Programming.md \
+            MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/01_1.061_Transport_Processes.md \
+            MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/01_1.063_Fluids_and_Disease.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/01_1.050_Solid_Mechanics.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/03_1.036_Structural_Mechanics_and_Design.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/06_1.013_Senior_Design_Capstone.md \
+            MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/01_1.035_Multiscale_Characterization.md \
+            MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/01_1.041_1.022_Transportation_Networks.md \
             MIT_CEE_MEng_SMD/01_1.562_1.563_Structural_Design_Project.md \
-            MIT_CEE_MEng_SMD/02_1.573_Structural_Mechanics.md \
-            MIT_CEE_Materials_Track/01_1.035_Multiscale_Characterization.md \
-            MIT_CEE_Environmental_Track/01_1.061_Transport_Processes.md \
-            MIT_CEE_Transportation_Track/01_1.041_1.022_Transportation_Networks.md \
-            MIT_CEE_Microbiology_Track/01_1.063_Fluids_and_Disease.md
+            MIT_CEE_MEng_SMD/02_1.573_Structural_Mechanics.md
           do
             if [ ! -f "$f" ]; then
               echo "❌ Missing: $f"
@@ -125,7 +138,11 @@ jobs:
         run: |
           npx --yes markdownlint-cli@0.42.0 \
             --config .markdownlint.json \
-            "MIT_CEE_*Track/**/*.md" \
+            "MIT_CEE_GIRs/**/*.md" \
+            "MIT_CEE_GDRs/**/*.md" \
+            "MIT_CEE_Core/**/*.md" \
+            "MIT_CEE_MEng_SMD/**/*.md" \
+            "MIT_CEE_UREs/**/*.md" \
             README.md \
             AGENTS.md \
             || true   # non-blocking by default; see note below
