@@ -38,6 +38,7 @@ sub-areas (each is a "focus" in the MIT page):
 - [02_1.081_Environmental_Cancer_Risks.md](./Environmental_Life_Sciences/02_1.081_Environmental_Cancer_Risks.md) — *stub*
 
 ### Fluids and Transport Engineering
+- [00_1.009_Climate_Change.md](./Fluids_Transport_Engineering/00_1.009_Climate_Change.md) — *stub (recommended first-year Fall, per MIT page)*
 - [01_1.061_Transport_Processes.md](./Fluids_Transport_Engineering/01_1.061_Transport_Processes.md) — *expanded (1496 lines)*
 - [02_1.018_1.070_Ecology_Hydrology.md](./Fluids_Transport_Engineering/02_1.018_1.070_Ecology_Hydrology.md) — *expanded (1839 lines)*
 - [03_1.080_Environmental_Chemistry.md](./Fluids_Transport_Engineering/03_1.080_Environmental_Chemistry.md) — *expanded (2106 lines)*

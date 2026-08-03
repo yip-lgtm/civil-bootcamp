@@ -17,7 +17,7 @@ specializations.
 | 18.03 | Differential Equations | 12 | [18.03_Differential_Equations.md](./18.03_Differential_Equations.md) |
 | 1.000 | Computer Programming & Numerical Methods for Engineering Applications | 12 | [1.000_Introduction_to_Computer_Programming_and_Numerical_Methods.md](./1.000_Introduction_to_Computer_Programming_and_Numerical_Methods.md) |
 | 1.010A | Probability: Concepts and Applications | 6 | [1.010A_Probability_Concepts_and_Applications.md](./1.010A_Probability_Concepts_and_Applications.md) |
-| 1.073 *or* 1.074 | Multivariate Data Analysis | 6 | [1.074_Multivariate_Data_Analysis.md](./1.074_Multivariate_Data_Analysis.md) |
+| 1.073 *or* 1.074 | Multivariate Data Analysis | 6 | [1.073_Introduction_to_Environmental_Data_Analysis.md](./1.073_Introduction_to_Environmental_Data_Analysis.md) / [1.074_Multivariate_Data_Analysis.md](./1.074_Multivariate_Data_Analysis.md) |
 | 1.101 | Introduction to CEE Design I | 6 | [1.101_Introduction_to_CEE_Design.md](./1.101_Introduction_to_CEE_Design.md) |
 | 1.013 | Senior CEE Design (Capstone) | 12 | [1.013_Senior_CEE_Design_Capstone.md](./1.013_Senior_CEE_Design_Capstone.md) |
 
