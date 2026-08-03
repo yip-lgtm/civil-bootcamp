@@ -117,7 +117,19 @@ jobs:
             MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/04_1.102_Introduction_to_CEE_Design_II.md \
             MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/05_1.022_Introduction_to_Network_Models.md \
             MIT_CEE_MEng_SMD/01_1.562_1.563_Structural_Design_Project.md \
-            MIT_CEE_MEng_SMD/02_1.573_Structural_Mechanics.md
+            MIT_CEE_MEng_SMD/02_1.573_Structural_Mechanics.md \
+            MIT_CEE_MEng_SMD/03_1.581_Structural_Dynamics.md \
+            MIT_CEE_MEng_SMD/04_1.541_Concrete_Structures.md \
+            MIT_CEE_MEng_SMD/05_1.361_1.364_Advanced_Soil_Geotech.md \
+            MIT_CEE_MEng_SMD/06_1.550_Engineering_Mechanics.md \
+            MIT_CEE_MEng_SMD/07_1.575_Computational_Structural_Design_Optimization.md \
+            MIT_CEE_MEng_SMD/08_1.583_Topology_Optimization_of_Structures.md \
+            MIT_CEE_MEng_SMD/09_1.582_Design_of_Steel_Structures.md \
+            MIT_CEE_MEng_SMD/10_2.081_Plates_and_Shells.md \
+            MIT_CEE_MEng_SMD/11_1.121_Advanced_Mechanics_Materials_via_ML.md \
+            MIT_CEE_MEng_SMD/12_1.142_Robust_Modeling_Optimization_Computation.md \
+            MIT_CEE_MEng_SMD/13_1.351_Theoretical_Soil_Mechanics.md \
+            MIT_CEE_MEng_SMD/14_1.472_Innovative_Project_Delivery.md
           do
             if [ ! -f "$f" ]; then
               echo "❌ Missing: $f"
