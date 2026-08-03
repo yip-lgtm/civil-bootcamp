@@ -13,6 +13,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
       - name: Check required track folders exist
         run: |
           set -e
@@ -31,7 +36,7 @@ jobs:
             echo "OK: $d"
           done
 
-      - name: Check INDEX files and course files
+      - name: Check INDEX files and critical course files
         run: |
           set -e
           echo "=== Structural Design Track ==="
@@ -65,35 +70,75 @@ jobs:
 
       - name: Count markdown files
         run: |
-          count=$(find . -name "*.md" | wc -l)
+          count=$(find . -name "*.md" ! -path "*/.git/*" | wc -l)
           echo "Total markdown files: $count"
           if [ "$count" -lt 30 ]; then
             echo "Expected at least 30 markdown files"
             exit 1
           fi
 
-      - name: Basic markdown structure check
+      - name: Content-quality check (3-question format + deep dives + solutions + bilingual)
+        id: content_check
+        run: |
+          set +e
+          python3 .github/scripts/check_content.py 2>&1 | tee content_check.log
+          rc=$?
+          echo "exit_code=$rc" >> $GITHUB_OUTPUT
+          # Don't fail the build on stub-only warnings; only on hard structural errors
+          if [ $rc -ne 0 ] && [ $rc -ne 2 ]; then
+            echo "Content check failed with exit code $rc"
+            exit $rc
+          fi
+          echo "Content check: warnings/errors handled (see log)"
+
+      - name: Publish content report to GitHub step summary
+        if: always()
+        run: |
+          {
+            echo "## 📊 Content Quality Report"
+            echo ""
+            echo '```'
+            cat content_check.log
+            echo '```'
+            echo ""
+            echo "**Legend:**"
+            echo "- \`MM\` = Mental models in 問題 1 (expect 5)"
+            echo "- \`DG\` = Disagreements in 問題 2 (expect 3)"
+            echo "- \`Qs\` = Deep questions in 問題 3 (expect 10)"
+            echo "- \`Dives\` = Mental-model deep dives (expect ≥ 5 if expanded)"
+            echo "- \`Sols\` = Detailed self-test solutions (expect ≥ 10 if expanded)"
+            echo "- \`Status\` = OK (expanded) / STUB (needs expansion)"
+            echo ""
+            echo "**Thresholds:**"
+            echo "- Minimum expanded size: 300 lines"
+            echo "- Stub files receive warnings only (do not fail CI)"
+            echo "- Hard errors only on broken 3-question structure or missing bilingual content"
+          } >> $GITHUB_STEP_SUMMARY
+
+      - name: Basic 3-question structure check (legacy, fast)
         run: |
           set -e
-          # Every course file should contain the three required sections
           failed=0
-          for f in $(find . -name "*.md" ! -name "00_INDEX.md" ! -name "README.md" ! -name "AGENTS.md"); do
+          for f in $(find . -name "*.md" -path "*/MIT_CEE_*Track/*" ! -name "00_INDEX.md"); do
             if ! grep -q "問題 1" "$f" || ! grep -q "問題 2" "$f" || ! grep -q "問題 3" "$f"; then
-              if ! echo "$f" | grep -q "00_INDEX\|README\|AGENTS"; then
-                echo "Missing required sections in: $f"
-                failed=1
-              fi
+              echo "Missing required sections in: $f"
+              failed=1
             fi
           done
           if [ $failed -eq 1 ]; then
-            echo "Some files are missing the standard 3-question structure"
-            exit 0
+            exit 1
           fi
-          echo "Structure check passed"
+          echo "Legacy structure check passed"
 
       - name: Summary
+        if: always()
         run: |
-          echo "## CI Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- Tracks validated: 6" >> $GITHUB_STEP_SUMMARY
-          echo "- Markdown files: $(find . -name '*.md' | wc -l)" >> $GITHUB_STEP_SUMMARY
-          echo "- Status: ✅ Ready for self-study" >> $GITHUB_STEP_SUMMARY
+          {
+            echo "## CI Summary"
+            echo ""
+            echo "- Tracks validated: 6"
+            echo "- Markdown files: $(find . -name '*.md' ! -path '*/.git/*' | wc -l)"
+            echo "- Status: $([ '${{ steps.content_check.outputs.exit_code }}' = '0' ] && echo '✅ All structural checks passed' || echo '⚠️ Structural errors detected')"
+            echo ""
+            echo "See **Content Quality Report** above for per-file detail."
+          } >> $GITHUB_STEP_SUMMARY
