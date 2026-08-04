@@ -32,9 +32,9 @@ This repository mirrors the **MIT CEE Course 1-ENG (Bachelor of Science in Civil
 
 ---
 
-## 📂 Course Format — 袁騰飛格式 (5MM / 3DG / 10Q / 5DD / 10SL / 5MR)
+## 📂 Course Format — Deep Study Format (5MM/3DG/10Q/5DD/10SL/5MR)
 
-每一個 course file 都係用 **袁騰飛格式** 寫成。每個 course 有：
+每一個 course file 都係用 **Deep Study Format (5MM/3DG/10Q/5DD/10SL/5MR)** 寫成。每個 course 有：
 
 | 元素 | 數量 | 內容 | 品質門檻 |
 |---|---|---|---|
@@ -67,7 +67,7 @@ This repository mirrors the **MIT CEE Course 1-ENG (Bachelor of Science in Civil
                │
                ▼
 ┌─────────────────────────────────────────┐
-│  3. Engineer (袁騰飛 Producer)          │
+│  3. Engineer (Format Producer)          │
 │     5MM + 3DG + 10Q + 5DD + 10SL       │
 │     品質門檻: Specific, 禁通用廢話      │
 └──────────────┬──────────────────────────┘
@@ -91,7 +91,7 @@ This repository mirrors the **MIT CEE Course 1-ENG (Bachelor of Science in Civil
 
 - [`_agents/researcher/`](./_agents/researcher/) — 查 primary sources
 - [`_agents/data_extractor/`](./_agents/data_extractor/) — 提取 objectives/themes
-- [`_agents/engineer/`](./_agents/engineer/) — 袁騰飛格式 producer
+- [`_agents/engineer/`](./_agents/engineer/) — Deep Study Format (5MM/3DG/10Q/5DD/10SL/5MR) producer
 - [`_agents/diagram/`](./_agents/diagram/) — 5 Mermaid diagrams
 - [`_agents/professor_supervisor/`](./_agents/professor_supervisor/) — Quality gate reviewer
 
@@ -110,7 +110,7 @@ python3 _agents/professor_supervisor/review.py --all
 | Gate | Check | 拒絕 if |
 |---|---|---|
 | **G1 Length** | `wc -l` | < 400 lines |
-| **G2 Format** | 袁騰飛 sections | Missing 5MM, 3DG, 10Q, 5DD, 10SL |
+| **G2 Format** | research-based sections | Missing 5MM, 3DG, 10Q, 5DD, 10SL |
 | **G3 Citations** | Real scholars + year | < 3 named scholars |
 | **G4 Specificity** | Numbers + equations | < 3 equations |
 | **G5 Bilingual** | 中英對照 | EN-only section |

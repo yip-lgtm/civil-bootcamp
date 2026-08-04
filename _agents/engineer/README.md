@@ -1,4 +1,4 @@
-# AGENT 3: Engineer (袁騰飛 Format Producer)
+# AGENT 3: Engineer (research-based Format Producer)
 
 ## 職責
 產出課程內容嘅核心部分：
@@ -44,7 +44,7 @@ Produces `course_body.md` with sections:
 - 5 Deep Dives (中英對照)
 - 10 Solutions (中英對照)
 
-## Format: 袁騰飛
+## Format: research-based
 - 方程式用 LaTeX `$$...$$`
 - 引用用 inline (Author Year)
 - 數字要 specific (e.g., $OH \approx 10^6$ molecules cm⁻³)

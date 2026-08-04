@@ -11,7 +11,7 @@
 | Gate | Check | 拒絕 if |
 |---|---|---|
 | **G1 Length** | `wc -l` | < 400 lines |
-| **G2 Format** | 袁騰飛 sections present | Missing 5MM, 3DG, 10Q, 5DD, 10SL, 5MR |
+| **G2 Format** | research-based sections present | Missing 5MM, 3DG, 10Q, 5DD, 10SL, 5MR |
 | **G3 Citations** | Real scholars with year | < 3 named scholars, no years |
 | **G4 Specificity** | Numbers + equations | All generic, no equations |
 | **G5 Bilingual** | 中英對照 | EN-only or 中文-only sections |
