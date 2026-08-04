@@ -1,7 +1,7 @@
 [
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/01_1.063_Fluids_and_Disease.md",
-    "score": 86,
+    "score": 92,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -11,33 +11,33 @@
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 6,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 512
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/02_1.081_Environmental_Cancer_Risks.md",
-    "score": 88,
+    "score": 94,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 582
+    "lines": 742
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/03_1.088_Genomics_Evolution_of_Infectious_Disease.md",
-    "score": 85,
+    "score": 89,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -47,7 +47,7 @@
       "G5_bilingual": 7,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 3,
+      "G8_solutions": 7,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
@@ -55,8 +55,8 @@
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/04_1.089_Earths_Microbiomes.md",
-    "score": 81,
-    "decision": "REVISE",
+    "score": 85,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
@@ -65,7 +65,7 @@
       "G5_bilingual": 7,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 3,
+      "G8_solutions": 7,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
@@ -73,7 +73,7 @@
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/05_20.507_Introduction_to_Biological_Chemistry.md",
-    "score": 89,
+    "score": 93,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -83,7 +83,7 @@
       "G5_bilingual": 7,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 3,
+      "G8_solutions": 7,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
@@ -91,43 +91,43 @@
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/06_7.102_Introduction_to_Molecular_Biology_Techniques.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 580
+    "lines": 520
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Environmental_Life_Sciences/07_12.715_Environmental_Bioinformatics.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 581
+    "lines": 521
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/01_1.061_Transport_Processes.md",
-    "score": 86,
+    "score": 91,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -138,32 +138,32 @@
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 517
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/02_1.106_Environmental_Fluid_Mechanics_Lab.md",
-    "score": 74,
-    "decision": "REVISE",
+    "score": 89,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 5,
-      "G2_format": 12,
-      "G3_citations": 8,
-      "G4_specificity": 4,
+      "G2_format": 15,
+      "G3_citations": 12,
+      "G4_specificity": 12,
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G8_solutions": 5,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 312
+    "lines": 341
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/03_1.080_Environmental_Chemistry.md",
-    "score": 94,
+    "score": 91,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -173,7 +173,7 @@
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 6,
+      "G8_solutions": 3,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
@@ -217,62 +217,62 @@
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/05_1.106_Environmental_Fluid_Mechanics_Lab.md",
-    "score": 87,
+    "score": 99,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
-      "G3_citations": 12,
-      "G4_specificity": 0,
+      "G3_citations": 15,
+      "G4_specificity": 12,
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
+      "G8_solutions": 7,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 817
+    "lines": 846
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/05_1.106_Environmental_Fluid_Transport_Hydrology_Lab.md",
-    "score": 88,
+    "score": 97,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
+      "G3_citations": 15,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 580
+    "lines": 520
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/06_1.107_Water_and_Air_Quality_Laboratory.md",
-    "score": 88,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 579
+    "lines": 519
   },
   {
     "file": "MIT_CEE_Core/Track_1_Environment/Fluids_Transport_Engineering/07_5.12_Organic_Chemistry.md",
-    "score": 81,
-    "decision": "REVISE",
+    "score": 88,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
@@ -281,7 +281,7 @@
       "G5_bilingual": 7,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 3,
+      "G8_solutions": 10,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
@@ -307,7 +307,7 @@
   },
   {
     "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/02_1.037_Soil_Mechanics_and_Geotechnical_Design.md",
-    "score": 105,
+    "score": 102,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -317,7 +317,7 @@
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
+      "G8_solutions": 7,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
@@ -325,7 +325,7 @@
   },
   {
     "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/03_1.057_Heritage_Science.md",
-    "score": 94,
+    "score": 96,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -335,104 +335,356 @@
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 519
   },
   {
     "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Materials/04_1.579_Materials_in_Agriculture.md",
-    "score": 85,
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 519
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/01_1.050_Solid_Mechanics.md",
+    "score": 99,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 12,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 712
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/02_1.035_Mechanics_of_Materials.md",
+    "score": 102,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 12,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 693
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/03_1.036_Structural_Mechanics_and_Design.md",
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
       "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 5,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 409
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/04_1.060_Fluid_Mechanics.md",
+    "score": 99,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 12,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 465
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/08_1.056_Introduction_to_Structural_Design.md",
+    "score": 88,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 4,
+      "G4_specificity": 12,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 553
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/09_1.004_Startup_Sustainable_Tech.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 519
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/10_1.021_Introduction_to_Modeling_and_Simulation.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/11_1.104_Sensing_and_Intelligent_Systems.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
+  },
+  {
+    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/12_1.058_Structural_Dynamics_Undergraduate.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
+  },
+  {
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/01_1.041_Transportation_Systems.md",
+    "score": 85,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 9,
+      "G3_citations": 4,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 663
+  },
+  {
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/02_15.053_Optimization_Methods.md",
+    "score": 95,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 12,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
       "G7_mermaid": 10,
       "G8_solutions": 10,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 579
+    "lines": 601
   },
   {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/01_1.050_Solid_Mechanics.md",
-    "score": 79,
-    "decision": "REVISE",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 12,
-      "G3_citations": 12,
-      "G4_specificity": 0,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 10,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
-      "G10_no_template": 5
-    },
-    "lines": 683
-  },
-  {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/02_1.035_Mechanics_of_Materials.md",
-    "score": 75,
-    "decision": "REVISE",
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/03_1.024_ML_Sustainable_Systems.md",
+    "score": 92,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 12,
       "G3_citations": 8,
-      "G4_specificity": 0,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 664
+    "lines": 541
   },
   {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/03_1.036_Structural_Mechanics_and_Design.md",
-    "score": 75,
-    "decision": "REVISE",
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/04_1.275_Business_Operations_Analytics.md",
+    "score": 85,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 12,
+      "G3_citations": 4,
+      "G4_specificity": 15,
+      "G5_bilingual": 7,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 596
+  },
+  {
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/05_1.C51_ML_Sustainable_Systems_Grad.md",
+    "score": 87,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 0,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 925
+  },
+  {
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/01_1.041_1.022_Transportation_Networks.md",
+    "score": 94,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 0,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 492
+    "lines": 742
   },
   {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/04_1.060_Fluid_Mechanics.md",
-    "score": 79,
-    "decision": "REVISE",
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/02_1.020_Engineering_Sustainability.md",
+    "score": 87,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
-      "G2_format": 12,
-      "G3_citations": 12,
-      "G4_specificity": 0,
+      "G2_format": 15,
+      "G3_citations": 4,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 436
+    "lines": 647
   },
   {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/08_1.056_Introduction_to_Structural_Design.md",
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/03_1.075_Water_Resource_Systems.md",
+    "score": 95,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 12,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
+      "G10_no_template": 5
+    },
+    "lines": 751
+  },
+  {
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/04_1.102_Introduction_to_CEE_Design_II.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/05_1.022_Introduction_to_Network_Models.md",
     "score": 91,
     "decision": "APPROVED",
     "gates": {
@@ -447,371 +699,119 @@
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 553
-  },
-  {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/09_1.004_Startup_Sustainable_Tech.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 579
-  },
-  {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/10_1.021_Introduction_to_Modeling_and_Simulation.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 581
-  },
-  {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/11_1.104_Sensing_and_Intelligent_Systems.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 581
-  },
-  {
-    "file": "MIT_CEE_Core/Track_2_Mechanics_Materials/Structural_Design/12_1.058_Structural_Dynamics_Undergraduate.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 581
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/01_1.041_Transportation_Systems.md",
-    "score": 73,
-    "decision": "REVISE",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 9,
-      "G3_citations": 4,
-      "G4_specificity": 15,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 10,
-      "G7_mermaid": 10,
-      "G8_solutions": 0,
-      "G9_deep_dives": 0,
-      "G10_no_template": 5
-    },
-    "lines": 663
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/02_15.053_Optimization_Methods.md",
-    "score": 90,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 12,
-      "G3_citations": 8,
-      "G4_specificity": 15,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 10,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
-      "G10_no_template": 5
-    },
-    "lines": 601
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/03_1.024_ML_Sustainable_Systems.md",
-    "score": 90,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 12,
-      "G3_citations": 8,
-      "G4_specificity": 15,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 10,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
-      "G10_no_template": 5
-    },
-    "lines": 541
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/04_1.275_Business_Operations_Analytics.md",
-    "score": 70,
-    "decision": "REVISE",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 9,
-      "G3_citations": 4,
-      "G4_specificity": 15,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 10,
-      "G7_mermaid": 10,
-      "G8_solutions": 0,
-      "G9_deep_dives": 0,
-      "G10_no_template": 5
-    },
-    "lines": 568
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Energy_Systems/05_1.C51_ML_Sustainable_Systems_Grad.md",
-    "score": 90,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 0,
-      "G4_specificity": 15,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 10,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 925
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/01_1.041_1.022_Transportation_Networks.md",
-    "score": 88,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 582
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/02_1.020_Engineering_Sustainability.md",
-    "score": 86,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 4,
-      "G4_specificity": 15,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 6,
-      "G7_mermaid": 10,
-      "G8_solutions": 6,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 647
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/03_1.075_Water_Resource_Systems.md",
-    "score": 83,
-    "decision": "REVISE",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 4,
-      "G4_specificity": 8,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 6,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 722
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/04_1.102_Introduction_to_CEE_Design_II.md",
-    "score": 88,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/05_1.022_Introduction_to_Network_Models.md",
-    "score": 75,
-    "decision": "REVISE",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 4,
-      "G4_specificity": 0,
-      "G5_bilingual": 10,
-      "G6_no_placeholder": 10,
-      "G7_mermaid": 10,
-      "G8_solutions": 6,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 557
+    "lines": 585
   },
   {
     "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/06_15.053_Optimization_Methods_in_Business_Analytics.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 580
+    "lines": 520
   },
   {
     "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/07_1.024_Machine_Learning_for_Sustainable_Systems.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 582
+    "lines": 522
   },
   {
     "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/08_1.275_Business_and_Operations_Analytics.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 582
+    "lines": 522
   },
   {
     "file": "MIT_CEE_Core/Track_3_Energy_Transportation_Societal_Systems/Transportation_Urban_Systems/09_1.C51_Machine_Learning_for_Sustainable_Systems.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 581
+    "lines": 521
   },
   {
     "file": "MIT_CEE_GDRs/1.000_Introduction_to_Computer_Programming_and_Numerical_Methods.md",
-    "score": 88,
+    "score": 94,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 582
+    "lines": 742
   },
   {
     "file": "MIT_CEE_GDRs/1.010A_Probability_Concepts_and_Applications.md",
-    "score": 70,
-    "decision": "REVISE",
+    "score": 96,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
-      "G2_format": 9,
-      "G3_citations": 12,
-      "G4_specificity": 4,
+      "G2_format": 12,
+      "G3_citations": 15,
+      "G4_specificity": 12,
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 0,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 486
+    "lines": 514
   },
   {
     "file": "MIT_CEE_GDRs/1.013_Senior_CEE_Design_Capstone.md",
-    "score": 87,
+    "score": 92,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -822,86 +822,86 @@
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 575
   },
   {
     "file": "MIT_CEE_GDRs/1.073_Introduction_to_Environmental_Data_Analysis.md",
-    "score": 75,
-    "decision": "REVISE",
+    "score": 95,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
-      "G2_format": 12,
-      "G3_citations": 4,
-      "G4_specificity": 4,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 12,
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 580
+    "lines": 608
   },
   {
     "file": "MIT_CEE_GDRs/1.074_Multivariate_Data_Analysis.md",
-    "score": 64,
-    "decision": "REJECT",
+    "score": 92,
+    "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
-      "G2_format": 12,
-      "G3_citations": 4,
-      "G4_specificity": 0,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 12,
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 3,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 568
+    "lines": 596
   },
   {
     "file": "MIT_CEE_GDRs/1.101_Introduction_to_CEE_Design.md",
-    "score": 88,
+    "score": 94,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 582
+    "lines": 742
   },
   {
     "file": "MIT_CEE_GDRs/18.03_Differential_Equations.md",
-    "score": 88,
+    "score": 98,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
+      "G3_citations": 12,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 582
+    "lines": 742
   },
   {
     "file": "MIT_CEE_MEng_SMD/01_1.562_1.563_Structural_Design_Project.md",
-    "score": 90,
+    "score": 95,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -912,14 +912,14 @@
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 560
   },
   {
     "file": "MIT_CEE_MEng_SMD/02_1.573_Structural_Mechanics.md",
-    "score": 94,
+    "score": 96,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -929,15 +929,15 @@
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 678
   },
   {
     "file": "MIT_CEE_MEng_SMD/03_1.581_Structural_Dynamics.md",
-    "score": 90,
+    "score": 92,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -947,15 +947,15 @@
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 659
   },
   {
     "file": "MIT_CEE_MEng_SMD/04_1.541_Concrete_Structures.md",
-    "score": 102,
+    "score": 97,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -965,7 +965,7 @@
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
+      "G8_solutions": 5,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
@@ -973,25 +973,25 @@
   },
   {
     "file": "MIT_CEE_MEng_SMD/05_1.361_1.364_Advanced_Soil_Geotech.md",
-    "score": 88,
+    "score": 94,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
+      "G4_specificity": 15,
       "G5_bilingual": 10,
-      "G6_no_placeholder": 3,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
       "G9_deep_dives": 5,
       "G10_no_template": 5
     },
-    "lines": 582
+    "lines": 742
   },
   {
     "file": "MIT_CEE_MEng_SMD/06_1.550_Engineering_Mechanics.md",
-    "score": 87,
+    "score": 89,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -1001,15 +1001,15 @@
       "G5_bilingual": 7,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 509
   },
   {
     "file": "MIT_CEE_MEng_SMD/07_1.575_Computational_Structural_Design_Optimization.md",
-    "score": 90,
+    "score": 92,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -1019,15 +1019,15 @@
       "G5_bilingual": 10,
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G8_solutions": 7,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 614
   },
   {
     "file": "MIT_CEE_MEng_SMD/08_1.583_Topology_Optimization_of_Structures.md",
-    "score": 87,
+    "score": 92,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
@@ -1038,495 +1038,495 @@
       "G6_no_placeholder": 10,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 0,
+      "G9_deep_dives": 5,
       "G10_no_template": 5
     },
     "lines": 447
   },
   {
     "file": "MIT_CEE_MEng_SMD/09_1.582_Design_of_Steel_Structures.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 582
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/10_2.081_Plates_and_Shells.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 581
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/11_1.121_Advanced_Mechanics_Materials_via_ML.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 581
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/12_1.142_Robust_Modeling_Optimization_Computation.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 584
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/13_1.351_Theoretical_Soil_Mechanics.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/14_1.472_Innovative_Project_Delivery.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 583
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/15_1.001_Engineering_Computation_and_Data_Science.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 583
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/16_1.38_Engineering_Geology.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 579
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/17_1.462_Entrepreneurship_Built_Environment.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 585
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/18_1.564_Environmental_Technology_in_Buildings.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/19_1.813_Technology_Globalization_Sustainable_Development.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/20_1.834_Exploring_Sustainability_at_Different_Scales.md",
-    "score": 89,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 12,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 581
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/21_3.371_Structural_Materials.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/22_4.130_Architectural_Design_Theory.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 579
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/23_4.140_How_to_Make_Almost_Anything.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/24_4.252_Introduction_to_Urban_Design_and_Development.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 579
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/25_4.453_Creative_Machine_Learning_for_Design.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/26_4.463_Building_Technology_Systems.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 581
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/27_4.580_Inquiry_into_Computation_and_Design.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_MEng_SMD/28_4.604_Understanding_Modern_Architecture.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 579
-  },
-  {
-    "file": "MIT_CEE_UREs/14.01_Principles_of_Microeconomics.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 581
-  },
-  {
-    "file": "MIT_CEE_UREs/14.03_Microeconomic_Theory_and_Public_Policy.md",
-    "score": 85,
-    "decision": "APPROVED",
-    "gates": {
-      "G1_length": 10,
-      "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
-      "G7_mermaid": 10,
-      "G8_solutions": 10,
-      "G9_deep_dives": 5,
-      "G10_no_template": 5
-    },
-    "lines": 580
-  },
-  {
-    "file": "MIT_CEE_UREs/18.06_Linear_Algebra.md",
-    "score": 88,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
       "G4_specificity": 15,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 581
+    "lines": 522
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/10_2.081_Plates_and_Shells.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/11_1.121_Advanced_Mechanics_Materials_via_ML.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/12_1.142_Robust_Modeling_Optimization_Computation.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 524
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/13_1.351_Theoretical_Soil_Mechanics.md",
+    "score": 97,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/14_1.472_Innovative_Project_Delivery.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 523
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/15_1.001_Engineering_Computation_and_Data_Science.md",
+    "score": 94,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 12,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 523
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/16_1.38_Engineering_Geology.md",
+    "score": 97,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 519
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/17_1.462_Entrepreneurship_Built_Environment.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 525
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/18_1.564_Environmental_Technology_in_Buildings.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/19_1.813_Technology_Globalization_Sustainable_Development.md",
+    "score": 94,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 12,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/20_1.834_Exploring_Sustainability_at_Different_Scales.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/21_3.371_Structural_Materials.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/22_4.130_Architectural_Design_Theory.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 519
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/23_4.140_How_to_Make_Almost_Anything.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/24_4.252_Introduction_to_Urban_Design_and_Development.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 519
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/25_4.453_Creative_Machine_Learning_for_Design.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/26_4.463_Building_Technology_Systems.md",
+    "score": 94,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 12,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/27_4.580_Inquiry_into_Computation_and_Design.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_MEng_SMD/28_4.604_Understanding_Modern_Architecture.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 519
+  },
+  {
+    "file": "MIT_CEE_UREs/14.01_Principles_of_Microeconomics.md",
+    "score": 94,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 12,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
+  },
+  {
+    "file": "MIT_CEE_UREs/14.03_Microeconomic_Theory_and_Public_Policy.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  },
+  {
+    "file": "MIT_CEE_UREs/18.06_Linear_Algebra.md",
+    "score": 90,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 8,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 1,
+      "G10_no_template": 5
+    },
+    "lines": 521
   },
   {
     "file": "MIT_CEE_UREs/6.0001_Introduction_to_CS_Programming_in_Python.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 580
+    "lines": 520
   },
   {
     "file": "MIT_CEE_UREs/6.402_Modeling_with_Machine_Learning.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 582
+    "lines": 522
   },
   {
     "file": "MIT_CEE_UREs/6.S084_Linear_Algebra_and_Optimization.md",
-    "score": 85,
+    "score": 94,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
-      "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G3_citations": 12,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 581
+    "lines": 521
   },
   {
     "file": "MIT_CEE_UREs/IDS.012_Statistics_Computation_and_Applications.md",
-    "score": 85,
+    "score": 90,
     "decision": "APPROVED",
     "gates": {
       "G1_length": 10,
       "G2_format": 15,
       "G3_citations": 8,
-      "G4_specificity": 12,
-      "G5_bilingual": 7,
-      "G6_no_placeholder": 3,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 6,
       "G7_mermaid": 10,
       "G8_solutions": 10,
-      "G9_deep_dives": 5,
+      "G9_deep_dives": 1,
       "G10_no_template": 5
     },
-    "lines": 580
+    "lines": 520
   }
 ]
